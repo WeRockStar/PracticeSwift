@@ -5,11 +5,16 @@ target 'PracticeSwift' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for PracticeSwift
+  pod 'RxSwift', '~> 5.0.1'
+  pod 'RxCocoa', '~> 5.0.1'
+  pod 'Moya', '~> 13.0.1'
+  pod 'RxSwiftExt', '~> 5'
 
   target 'PracticeSwiftTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'RxSwift', '~> 5.0.1'
+    pod 'RxCocoa', '~> 5.0.1'
+    pod 'RxTest', '~> 5.0.1'
   end
 
   target 'PracticeSwiftUITests' do
