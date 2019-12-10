@@ -13,6 +13,7 @@
 		EE46A3FCBA03A4ACD446E60E /* PracticeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46AC7677B66896AC230ECC /* PracticeSwiftTests.swift */; };
 		EE46A448AB6F23B1A2288A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46ACA87493060EC9D286CE /* AppDelegate.swift */; };
 		EE46A77252810D957CF005A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46ADF7E0CCAFEAD78FB268 /* ViewController.swift */; };
+		EE46AAFF9D47DEA72A4E598E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46AA4E62E40DB8FA2C9931 /* Coordinator.swift */; };
 		EE46AD5AC25FF8C7A79B3A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE46A77D7F73B96BADDD2241 /* Assets.xcassets */; };
 		EE46AE7FB3E2E0818608E719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE46A2C7611007CFAF3A067C /* LaunchScreen.storyboard */; };
 		EE46AF40947C72AE5DCC51D5 /* PracticeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46AD0B38DA2D1F7B89DA8D /* PracticeSwiftUITests.swift */; };
@@ -55,6 +56,7 @@
 		EE46A994739940387FD3798C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE46A9D167D7157B8FAE0CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		EE46A9FE15D521CD93942183 /* PracticeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE46AA4E62E40DB8FA2C9931 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		EE46AC7677B66896AC230ECC /* PracticeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSwiftTests.swift; sourceTree = "<group>"; };
 		EE46ACA87493060EC9D286CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE46ACD81CDFE1BC748A80E2 /* PracticeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +139,7 @@
 				EE46AFAB35604A9718F753D6 /* SceneDelegate.swift */,
 				EE46ADF7E0CCAFEAD78FB268 /* ViewController.swift */,
 				EE46AA3D87CECFBA3140F9BF /* Main.storyboard */,
+				EE46AA4E62E40DB8FA2C9931 /* Coordinator.swift */,
 			);
 			path = PracticeSwift;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 				EE46A448AB6F23B1A2288A73 /* AppDelegate.swift in Sources */,
 				EE46AFE6ED138B7C9CAD6071 /* SceneDelegate.swift in Sources */,
 				EE46A77252810D957CF005A1 /* ViewController.swift in Sources */,
+				EE46AAFF9D47DEA72A4E598E /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
