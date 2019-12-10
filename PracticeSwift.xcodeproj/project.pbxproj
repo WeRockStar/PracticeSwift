@@ -10,6 +10,7 @@
 		10AE14A8311031F3F4D13722 /* Pods_PracticeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E471B82661E3CF55C3A3F /* Pods_PracticeSwift.framework */; };
 		B13129DCB8B745BAE367FE2A /* Pods_PracticeSwift_PracticeSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B985063DD7F8365C5EBE0F8 /* Pods_PracticeSwift_PracticeSwiftUITests.framework */; };
 		E0D54B30E0947E830BCF1676 /* Pods_PracticeSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C83E15A9CC749F654F59E0 /* Pods_PracticeSwiftTests.framework */; };
+		EE46A35443FAFAA0514FE1BB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46A01A59EBAEF34B9B99EC /* AppCoordinator.swift */; };
 		EE46A3FCBA03A4ACD446E60E /* PracticeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46AC7677B66896AC230ECC /* PracticeSwiftTests.swift */; };
 		EE46A448AB6F23B1A2288A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46ACA87493060EC9D286CE /* AppDelegate.swift */; };
 		EE46A77252810D957CF005A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46ADF7E0CCAFEAD78FB268 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		930E471B82661E3CF55C3A3F /* Pods_PracticeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9878866010536F231AE70011 /* Pods-PracticeSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-PracticeSwiftTests/Pods-PracticeSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5D241284A93E5B5CDA80C65 /* Pods-PracticeSwift-PracticeSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeSwift-PracticeSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-PracticeSwift-PracticeSwiftUITests/Pods-PracticeSwift-PracticeSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE46A01A59EBAEF34B9B99EC /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		EE46A3279E40B4F614E76819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		EE46A53106C66083734BB508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE46A7251AEDECF868683E9C /* PracticeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 				EE46ADF7E0CCAFEAD78FB268 /* ViewController.swift */,
 				EE46AA3D87CECFBA3140F9BF /* Main.storyboard */,
 				EE46AA4E62E40DB8FA2C9931 /* Coordinator.swift */,
+				EE46A01A59EBAEF34B9B99EC /* AppCoordinator.swift */,
 			);
 			path = PracticeSwift;
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 				EE46AFE6ED138B7C9CAD6071 /* SceneDelegate.swift in Sources */,
 				EE46A77252810D957CF005A1 /* ViewController.swift in Sources */,
 				EE46AAFF9D47DEA72A4E598E /* Coordinator.swift in Sources */,
+				EE46A35443FAFAA0514FE1BB /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
